@@ -35,7 +35,10 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = (bool(int(os.environ.get('DEBUG_VALUE', 0))))
 
 
-ALLOWED_HOSTS = ['127.0.0.1',]
+ALLOWED_HOSTS = [
+    '127.0.0.1',
+    'locahost',
+    ]
 
 
 # Application definition
