@@ -37,7 +37,7 @@ DEBUG = (bool(int(os.environ.get('DEBUG_VALUE', 0))))
 
 
 ALLOWED_HOSTS = [
-    'bristlebird-boutique-ado.herokuapp.com', 
+    'bristlebird-boutique-ado-74a66e91b5c1.herokuapp.com', 
     '127.0.0.1',
     'locahost',
     ]
