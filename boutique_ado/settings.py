@@ -33,8 +33,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY", '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # set debug to false unless DEBUG_VALUE env variable is found
-# DEBUG = (bool(int(os.environ.get('DEBUG_VALUE', 0))))
-DEBUG = True
+DEBUG = (bool(int(os.environ.get('DEBUG_VALUE', 0))))
 
 
 ALLOWED_HOSTS = [
